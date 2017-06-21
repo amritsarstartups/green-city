@@ -6,7 +6,7 @@ STATEMENT OF PURPOSE
 GREEN CITY
 
 Purpose of Making:
-The main objective of this application is to guide the user about the plantation technique and post plantation care. This application also widens the choice of tree species.
+The main objective of this application is to make the community more environment friendly and  provide post plantation care. This application also widens the choice of tree species.
 The aim is to change the trend of declining underground water table and erosion of lands, to combat pollution, to create clean environment and to enhance green belt in the nation.
 The present scenario is that the nation is suffering from a big aid of deforestation and this shameful act is disturbing the healthy growth of humankind. The adverse effects are the climatic changes that are occurring on weekly evaluation, the loss of bird species such as sparrow and many other environment loving and enhancing nature creatures are on the verge of extinction.
 
@@ -69,6 +69,8 @@ Adoption of trees can added as a key feature.
 Compost management can be indulged as the mean of survival and growth of trees in proper and fast manner.
 Compost Guide can be made for the proper waste management. 
 
+Checkout The Presentation Link :
+https://www.slideshare.net/GauravjeetSingh4/green-city-77142625
 
 
 
