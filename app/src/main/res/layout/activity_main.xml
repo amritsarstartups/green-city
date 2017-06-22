@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:fancy="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:background="@drawable/large_back"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:src="@drawable/icon_green"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:alpha="0.7"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+              <mehdi.sakout.fancybuttons.FancyButton
+                    android:id="@+id/btn_facebook_like"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="facebook"
+                    android:padding="10dp"
+                  android:visibility="gone"
+                    fancy:fb_borderColor="#FFFFFF"
+                    fancy:fb_borderWidth="1dp"
+                    fancy:fb_defaultColor="#3b5998"
+                    fancy:fb_focusColor="#3b5998"
+                    fancy:fb_fontIconSize="15sp"
+                    fancy:fb_iconPosition="right"
+                    fancy:fb_radius="30dp"
+                    fancy:fb_text="Login with Facebook"
+                    fancy:fb_textColor="#FFFFFF"/>
+
+                <mehdi.sakout.fancybuttons.FancyButton
+                    android:id="@+id/live_kirtan"
+                    android:onClick="twitter"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:padding="10dp"
+                    android:visibility="gone"
+                    fancy:fb_borderColor="#FFFFFF"
+                    fancy:fb_borderWidth="1dp"
+                    fancy:fb_defaultColor="#00aced"
+                    fancy:fb_focusColor="#ff838b"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    fancy:fb_radius="30dp"
+                    fancy:fb_text="Login with Twitter"
+                    fancy:fb_textColor="#FFFFFF" >
+                </mehdi.sakout.fancybuttons.FancyButton>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="or"
+                    android:visibility="gone"
+                    android:layout_marginBottom="20dp"
+                    android:layout_height="wrap_content" />
+                <mehdi.sakout.fancybuttons.FancyButton
+                    android:id="@+id/nitnem"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:onClick="signup"
+                    fancy:fb_borderColor="#FFFFFF"
+                    fancy:fb_borderWidth="1dp"
+                    fancy:fb_defaultColor="#631a41"
+                    fancy:fb_focusColor="#ff838b"
+                    fancy:fb_radius="30dp"
+                    fancy:fb_text="Signup"
+                    fancy:fb_textColor="#FFFFFF" >
+                </mehdi.sakout.fancybuttons.FancyButton>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>

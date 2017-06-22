@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/large_back"
+    >
+
+    <ScrollView
+        android:id="@+id/formSignup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/relia"
+            android:orientation="vertical"
+            android:padding="@dimen/dimen_16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <!--Email -->
+                <android.support.design.widget.TextInputLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/colorAccent">
+
+                    <EditText
+                        android:id="@+id/name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/str_name"
+                        android:inputType="textEmailAddress"
+                        android:maxLength="50"
+                        android:textColor="@color/color_disable_text"
+                        android:textColorHint="@color/menu_background" />
+
+                </android.support.design.widget.TextInputLayout>
+                <!--Password-->
+                <android.support.design.widget.TextInputLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_10dp"
+                    android:textColorHint="@color/colorAccent">
+
+                    <EditText
+                        android:id="@+id/email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/str_email"
+                        android:inputType="textEmailAddress"
+                        android:maxLength="20"
+                        android:textColor="@color/color_disable_text"
+                        android:textColorHint="@color/colorPrimary" />
+
+                </android.support.design.widget.TextInputLayout>
+                <!--Confirm Password-->
+                <android.support.design.widget.TextInputLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_10dp"
+                    android:textColorHint="@color/colorAccent">
+
+                    <EditText
+                        android:id="@+id/edt_city"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/str_city"
+                        android:inputType="textPersonName"
+                        android:maxLength="20"
+                        android:text="Amritsar"
+                        android:textColor="@color/color_disable_text"
+                        android:textColorHint="@color/colorPrimary" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <!--Email -->
+                <android.support.design.widget.TextInputLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/colorAccent">
+
+                    <EditText
+                        android:id="@+id/edt_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/str_phone"
+                        android:inputType="phone"
+                        android:maxLength="12"
+                        android:textColor="@color/color_disable_text"
+                        android:textColorHint="@color/colorPrimary" />
+
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btnSignUp"
+                style="@style/MyCommonButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:clickable="true"
+                android:text="@string/str_signup" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

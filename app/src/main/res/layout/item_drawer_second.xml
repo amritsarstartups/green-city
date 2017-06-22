@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    android:elevation="5dp"
+    android:layout_gravity="center"
+    android:gravity="center|left"
+    android:id="@+id/layout"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+   <!-- <com.joooonho.SelectableRoundedImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:gravity="left"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/plantImage"
+        android:src="@drawable/icon_green"
+        android:scaleType="centerCrop"
+        app:sriv_left_top_corner_radius="0dip"
+        android:layout_gravity="center"
+        app:sriv_right_top_corner_radius="0dip"
+        app:sriv_left_bottom_corner_radius="0dip"
+        app:sriv_right_bottom_corner_radius="0dip"
+
+        app:sriv_border_color="@color/colorPrimary"
+        app:sriv_oval="true" />-->
+    <ImageView android:layout_width="wrap_content"
+        android:id="@+id/plantImage"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/plantType"
+            android:text="Plant Type"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:gravity="center"
+            android:textColor="@color/index_color"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/plantName"
+            android:text="Plant Type"
+            android:layout_marginLeft="15dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:gravity="center"
+            android:textColor="@color/index_color"
+            android:layout_height="wrap_content" />
+      
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/address"
+        android:text="Plant Type"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:gravity="left"
+        android:textColor="@color/index_color"
+        android:layout_height="wrap_content" />
+</LinearLayout>

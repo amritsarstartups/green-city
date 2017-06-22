@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="primary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="primary_light">#C8E6C9</color>
+    <color name="colorAccent">#009688</color>
+    <color name="white">#fff</color>
+    <color name="grey">#BEBEBE</color>
+    <color name="twitter">#23C4FF</color>
+    <color name="menu_background">#119c4b</color>
+    <color name="background">#ececec</color>
+    <color name="color_disable">#E0E0E0</color>
+    <color name="color_disable_text">#ffffff</color>
+    <color name="relia">#a60a0909</color>
+    <color name="despacito">#6b8de48c</color>
+    <color name="janiota">#3b5522</color>
+    <color name="titli">#849faa55</color>
+    <color name="mitaka">#eb536003</color>
+    <color name="index_color">#09070a</color>
+    <color name="back_panel">#1a3a3e</color>
+    <color name="trans">#afdbe1e1</color>
+    <color name="oreo">#2774d9</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+</resources>
